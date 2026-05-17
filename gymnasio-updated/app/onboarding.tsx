@@ -1,5 +1,5 @@
-import OnboardingScreen from "../screens/onboardingScreen";
+import OnboardingScreen from '@/screens/Onboarding/onboardingScreen';
 
-export default function Onboarding() {
-  return <OnboardingScreen />;
+export default function onboarding() {
+  return <OnboardingScreen/>
 }

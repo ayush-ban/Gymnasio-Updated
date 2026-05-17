@@ -2,7 +2,7 @@ import { Dimensions, StyleSheet } from "react-native";
 
 const { width, height } = Dimensions.get("window");
 
-const PRIMARY = "#D7FF00";
+const PRIMARY = "#C6FF00";
 
 export default StyleSheet.create({
   background: {
@@ -34,7 +34,7 @@ export default StyleSheet.create({
     fontSize: 28,
     fontWeight: "900",
     letterSpacing: 1,
-    fontStyle: "italic",
+    // fontStyle: "italic",
   },
 
   loginText: {

@@ -11,7 +11,7 @@ import { router } from "expo-router";
 
 import styles from "./onboardingScreen.styles";
 
-const onboardingScreen = () => {
+const OnboardingScreen = () => {
   return (
     <ImageBackground
       source={{
@@ -89,4 +89,4 @@ const onboardingScreen = () => {
   );
 };
 
-export default onboardingScreen;
+export default OnboardingScreen;
