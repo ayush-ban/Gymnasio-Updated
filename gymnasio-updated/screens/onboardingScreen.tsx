@@ -1,13 +1,13 @@
 import React from "react";
 import {
   ImageBackground,
-  StatusBar,
   Text,
   TouchableOpacity,
   View,
 } from "react-native";
 
 import { SafeAreaView } from "react-native-safe-area-context";
+import { router } from "expo-router";
 
 import styles from "./onboardingScreen.styles";
 
@@ -20,7 +20,7 @@ const onboardingScreen = () => {
       style={styles.background}
       resizeMode="cover"
     >
-      <StatusBar barStyle="light-content" />
+      
 
       <View style={styles.overlay} />
 
@@ -49,7 +49,10 @@ const onboardingScreen = () => {
           </Text>
 
           {/* Button */}
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity
+            style={styles.button}
+            onPress={() => router.push("/login")}
+          >
             <Text style={styles.buttonText}>GET STARTED</Text>
           </TouchableOpacity>
 
