@@ -1,10 +1,5 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import GymsScreen from '@/screens/BottomTabs/Gyms/gymsScreen'
 
 export default function Gyms() {
-  return (
-    <View>
-      <Text>Gyms</Text>
-    </View>
-  )
+  return <GymsScreen />
 }
