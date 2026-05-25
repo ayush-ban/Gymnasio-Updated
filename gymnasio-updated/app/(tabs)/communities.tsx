@@ -1,10 +1,5 @@
-import { View, Text } from 'react-native'
-import React from 'react'
+import CommunitiesScreen from '@/screens/BottomTabs/Communities/communitiesScreen'
 
 export default function Communities() {
-  return (
-    <View>
-      <Text>Communities</Text>
-    </View>
-  )
+  return <CommunitiesScreen />
 }
